@@ -3,10 +3,16 @@
 //  Portfolio
 //
 //  Created by Anthony John Perritano on 3/12/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 .t All rights reserved.
 //
 
 #import "PortfolioAppDelegate.h"
+#import "LauncherViewTestController.h"
+#import "StyleSheet.h"
+#import "TableImageTestController.h"
+#import "SplitCatalogController.h"
+#import "CatalogController.h"
+#import "FlickrThumbsViewController.h"
 
 @implementation PortfolioAppDelegate
 
@@ -21,7 +27,41 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+
+    TTNavigator* navigator = [TTNavigator navigator];
+    navigator.supportsShakeToReload = YES;
+    navigator.persistenceMode = TTNavigatorPersistenceModeAll;
+    navigator.window = self.window;
+    
+    [TTStyleSheet setGlobalStyleSheet:[[[StyleSheet alloc] init] autorelease]];
+    
+    TTURLMap* map = navigator.URLMap;
+    [map from:@"*" toViewController:[TTWebController class]];
+    
+    if (TTIsPad()) {
+        [map                    from: @"tt://catalog"
+              toSharedViewController: [SplitCatalogController class]];
+        
+        SplitCatalogController* controller =
+        (SplitCatalogController*)[[TTNavigator navigator] viewControllerForURL:@"tt://catalog"];
+        TTDASSERT([controller isKindOfClass:[SplitCatalogController class]]);
+        map = controller.rightNavigator.URLMap;
+        
+    } else {
+        [map                    from: @"tt://catalog"
+              toSharedViewController: [CatalogController class]];
+    }
+    
+    [map            from: @"tt://flickPhotoAlbum"
+                  parent: @"tt://catalog"
+        toViewController: [FlickrThumbsViewController class]
+                selector: nil
+              transition: 0];
+
+    if (![navigator restoreViewControllers]) {
+        [navigator openURLAction:[TTURLAction actionWithURLPath:@"tt://catalog"]];
+    }
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
