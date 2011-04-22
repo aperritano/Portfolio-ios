@@ -11,8 +11,9 @@
 #import "StyleSheet.h"
 #import "TableImageTestController.h"
 #import "SplitCatalogController.h"
-#import "CatalogController.h"
+#import "FoliosController.h"
 #import "FlickrThumbsViewController.h"
+#import "TTTwitterSearchFeedViewController.h"
 
 @implementation PortfolioAppDelegate
 
@@ -33,33 +34,41 @@
     navigator.persistenceMode = TTNavigatorPersistenceModeAll;
     navigator.window = self.window;
     
+    [TTExtensionLoader loadAllExtensions]; 
+    [[TTURLRequestQueue mainQueue] setMaxContentLength:0];
     [TTStyleSheet setGlobalStyleSheet:[[[StyleSheet alloc] init] autorelease]];
     
     TTURLMap* map = navigator.URLMap;
     [map from:@"*" toViewController:[TTWebController class]];
     
     if (TTIsPad()) {
-        [map                    from: @"tt://catalog"
+        [map                    from: @"tt://folio"
               toSharedViewController: [SplitCatalogController class]];
         
         SplitCatalogController* controller =
-        (SplitCatalogController*)[[TTNavigator navigator] viewControllerForURL:@"tt://catalog"];
+        (SplitCatalogController*)[[TTNavigator navigator] viewControllerForURL:@"tt://folio"];
         TTDASSERT([controller isKindOfClass:[SplitCatalogController class]]);
         map = controller.rightNavigator.URLMap;
         
     } else {
-        [map                    from: @"tt://catalog"
-              toSharedViewController: [CatalogController class]];
+        [map                    from: @"tt://folio"
+              toSharedViewController: [FoliosController class]];
     }
     
     [map            from: @"tt://flickPhotoAlbum"
-                  parent: @"tt://catalog"
+                  parent: @"tt://folio"
         toViewController: [FlickrThumbsViewController class]
+                selector: nil
+              transition: 0];
+    
+    [map            from: @"tt://twitter"
+                  parent: @"tt://folio"
+        toViewController: [TTTwitterSearchFeedViewController class]
                 selector: nil
               transition: 0];
 
     if (![navigator restoreViewControllers]) {
-        [navigator openURLAction:[TTURLAction actionWithURLPath:@"tt://catalog"]];
+        [navigator openURLAction:[TTURLAction actionWithURLPath:@"tt://folio"]];
     }
     
     [self.window makeKeyAndVisible];

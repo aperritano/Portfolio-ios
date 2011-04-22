@@ -18,7 +18,7 @@
 		320F2C48872C2E2C4DF86205 /* libThree20UI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320F2C48872C2E2C4DF86204 /* libThree20UI.a */; };
 		AE20C9D0132B85AF003EA7A6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AE20C9CF132B85AF003EA7A6 /* Icon.png */; };
 		AE20C9D3132B8603003EA7A6 /* LauncherViewTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE20C9D2132B8603003EA7A6 /* LauncherViewTestController.m */; };
-		AE29EF691360114500593D15 /* CatalogController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE29EF661360114500593D15 /* CatalogController.m */; };
+		AE29EF691360114500593D15 /* FoliosController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE29EF661360114500593D15 /* FoliosController.m */; };
 		AE29EF6A1360114500593D15 /* SplitCatalogController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE29EF681360114500593D15 /* SplitCatalogController.m */; };
 		AE4F4465132B770E00A0D457 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4F4464132B770E00A0D457 /* UIKit.framework */; };
 		AE4F4467132B770E00A0D457 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4F4466132B770E00A0D457 /* Foundation.framework */; };
@@ -45,15 +45,16 @@
 		AEBCDE901360606400EDBDB9 /* FlickrPhotoSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBCDE8D1360606400EDBDB9 /* FlickrPhotoSource.m */; };
 		AEBCDEB01360750200EDBDB9 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBCDEA51360750200EDBDB9 /* NSObject+SBJSON.m */; };
 		AEBCDEB11360750200EDBDB9 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBCDEA71360750200EDBDB9 /* NSString+SBJSON.m */; };
-		AEBCDEB21360750200EDBDB9 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBCDEA91360750200EDBDB9 /* SBJSON.m */; };
-		AEBCDEB31360750200EDBDB9 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBCDEAB1360750200EDBDB9 /* SBJsonBase.m */; };
-		AEBCDEB41360750200EDBDB9 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBCDEAD1360750200EDBDB9 /* SBJsonParser.m */; };
-		AEBCDEB51360750200EDBDB9 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBCDEAF1360750200EDBDB9 /* SBJsonWriter.m */; };
 		AEBCDEB81360766B00EDBDB9 /* FlickrJSONResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBCDEB71360766B00EDBDB9 /* FlickrJSONResponse.m */; };
 		AEBCDEBF1360774F00EDBDB9 /* GTMNSString+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBCDEBC1360774F00EDBDB9 /* GTMNSString+URLArguments.m */; };
 		AEBCDEC01360774F00EDBDB9 /* GTMNSDictionary+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBCDEBE1360774F00EDBDB9 /* GTMNSDictionary+URLArguments.m */; };
+		AEBCDFA81360CF9C00EDBDB9 /* TTTwitterSearchFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBCDFA71360CF9C00EDBDB9 /* TTTwitterSearchFeedViewController.m */; };
+		AEBCDFAC1360D26100EDBDB9 /* TTTwitterSearchFeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBCDFAB1360D26100EDBDB9 /* TTTwitterSearchFeedModel.m */; };
+		AEBCDFAF1360D26D00EDBDB9 /* TTTwitterTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBCDFAE1360D26D00EDBDB9 /* TTTwitterTweet.m */; };
+		AEBCDFB31360D28E00EDBDB9 /* TTTwitterSearchFeedDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBCDFB21360D28E00EDBDB9 /* TTTwitterSearchFeedDataSource.m */; };
 		AEDF5185132D5A3E007F7290 /* ImageTest1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDF5183132D5A3E007F7290 /* ImageTest1Controller.m */; };
 		AEDF5188132D5F3D007F7290 /* TableImageTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDF5186132D5F3D007F7290 /* TableImageTestController.m */; };
+		AEFFF9C71361E40300176698 /* libextThree20JSON+SBJSON.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEFFF9C61361E40300176698 /* libextThree20JSON+SBJSON.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -211,6 +212,27 @@
 			remoteGlobalIDString = AE4F445F132B770D00A0D457;
 			remoteInfo = Portfolio;
 		};
+		AEFFF9B91361DF8600176698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEFFF9AE1361DF8600176698 /* extThree20JSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
+			remoteInfo = "extThree20JSON+SBJSON";
+		};
+		AEFFF9BB1361DF8600176698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEFFF9AE1361DF8600176698 /* extThree20JSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6E645BD91187751200F08CB1;
+			remoteInfo = "extThree20JSON+YAJL";
+		};
+		AEFFF9BD1361DF8600176698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEFFF9AE1361DF8600176698 /* extThree20JSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
+			remoteInfo = "extThree20JSONUnitTests+SBJSON";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -226,8 +248,8 @@
 		AE20C9CF132B85AF003EA7A6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		AE20C9D1132B8603003EA7A6 /* LauncherViewTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LauncherViewTestController.h; sourceTree = "<group>"; };
 		AE20C9D2132B8603003EA7A6 /* LauncherViewTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LauncherViewTestController.m; sourceTree = "<group>"; };
-		AE29EF651360114500593D15 /* CatalogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogController.h; sourceTree = "<group>"; };
-		AE29EF661360114500593D15 /* CatalogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogController.m; sourceTree = "<group>"; };
+		AE29EF651360114500593D15 /* FoliosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoliosController.h; sourceTree = "<group>"; };
+		AE29EF661360114500593D15 /* FoliosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoliosController.m; sourceTree = "<group>"; };
 		AE29EF671360114500593D15 /* SplitCatalogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitCatalogController.h; sourceTree = "<group>"; };
 		AE29EF681360114500593D15 /* SplitCatalogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitCatalogController.m; sourceTree = "<group>"; };
 		AE4F4460132B770E00A0D457 /* Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Portfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -267,14 +289,6 @@
 		AEBCDEA51360750200EDBDB9 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
 		AEBCDEA61360750200EDBDB9 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
 		AEBCDEA71360750200EDBDB9 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
-		AEBCDEA81360750200EDBDB9 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
-		AEBCDEA91360750200EDBDB9 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
-		AEBCDEAA1360750200EDBDB9 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
-		AEBCDEAB1360750200EDBDB9 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
-		AEBCDEAC1360750200EDBDB9 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
-		AEBCDEAD1360750200EDBDB9 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
-		AEBCDEAE1360750200EDBDB9 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
-		AEBCDEAF1360750200EDBDB9 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		AEBCDEB61360766B00EDBDB9 /* FlickrJSONResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrJSONResponse.h; sourceTree = "<group>"; };
 		AEBCDEB71360766B00EDBDB9 /* FlickrJSONResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrJSONResponse.m; sourceTree = "<group>"; };
 		AEBCDEBA1360774F00EDBDB9 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
@@ -282,10 +296,20 @@
 		AEBCDEBC1360774F00EDBDB9 /* GTMNSString+URLArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+URLArguments.m"; sourceTree = "<group>"; };
 		AEBCDEBD1360774F00EDBDB9 /* GTMNSDictionary+URLArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSDictionary+URLArguments.h"; sourceTree = "<group>"; };
 		AEBCDEBE1360774F00EDBDB9 /* GTMNSDictionary+URLArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSDictionary+URLArguments.m"; sourceTree = "<group>"; };
+		AEBCDFA61360CF9C00EDBDB9 /* TTTwitterSearchFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTwitterSearchFeedViewController.h; sourceTree = "<group>"; };
+		AEBCDFA71360CF9C00EDBDB9 /* TTTwitterSearchFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTwitterSearchFeedViewController.m; sourceTree = "<group>"; };
+		AEBCDFAA1360D26100EDBDB9 /* TTTwitterSearchFeedModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTwitterSearchFeedModel.h; sourceTree = "<group>"; };
+		AEBCDFAB1360D26100EDBDB9 /* TTTwitterSearchFeedModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTwitterSearchFeedModel.m; sourceTree = "<group>"; };
+		AEBCDFAD1360D26D00EDBDB9 /* TTTwitterTweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTwitterTweet.h; sourceTree = "<group>"; };
+		AEBCDFAE1360D26D00EDBDB9 /* TTTwitterTweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTwitterTweet.m; sourceTree = "<group>"; };
+		AEBCDFB11360D28E00EDBDB9 /* TTTwitterSearchFeedDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTwitterSearchFeedDataSource.h; sourceTree = "<group>"; };
+		AEBCDFB21360D28E00EDBDB9 /* TTTwitterSearchFeedDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTwitterSearchFeedDataSource.m; sourceTree = "<group>"; };
 		AEDF5183132D5A3E007F7290 /* ImageTest1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTest1Controller.m; sourceTree = "<group>"; };
 		AEDF5184132D5A3E007F7290 /* ImageTest1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTest1Controller.h; sourceTree = "<group>"; };
 		AEDF5186132D5F3D007F7290 /* TableImageTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableImageTestController.m; sourceTree = "<group>"; };
 		AEDF5187132D5F3D007F7290 /* TableImageTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableImageTestController.h; sourceTree = "<group>"; };
+		AEFFF9AE1361DF8600176698 /* extThree20JSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = extThree20JSON.xcodeproj; path = ../three20/src/extThree20JSON/extThree20JSON.xcodeproj; sourceTree = "<group>"; };
+		AEFFF9C61361E40300176698 /* libextThree20JSON+SBJSON.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libextThree20JSON+SBJSON.a"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -293,6 +317,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEFFF9C71361E40300176698 /* libextThree20JSON+SBJSON.a in Frameworks */,
 				3201088596B4756681693705 /* libThree20UICommon.a in Frameworks */,
 				320D7DCCE32703ACAB9A45E5 /* libThree20.a in Frameworks */,
 				320A737074758E53BA54BE95 /* libThree20UINavigator.a in Frameworks */,
@@ -416,6 +441,7 @@
 		AE4F4455132B770D00A0D457 = {
 			isa = PBXGroup;
 			children = (
+				AEFFF9C61361E40300176698 /* libextThree20JSON+SBJSON.a */,
 				AE4F446C132B770E00A0D457 /* Portfolio */,
 				AE4F4495132B770E00A0D457 /* PortfolioTests */,
 				AE4F4463132B770E00A0D457 /* Frameworks */,
@@ -435,6 +461,7 @@
 		AE4F4463132B770E00A0D457 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AEFFF9AE1361DF8600176698 /* extThree20JSON.xcodeproj */,
 				3201088596B4756681693700 /* Three20UICommon.xcodeproj */,
 				320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */,
 				320A737074758E53BA54BE90 /* Three20UINavigator.xcodeproj */,
@@ -454,17 +481,18 @@
 		AE4F446C132B770E00A0D457 /* Portfolio */ = {
 			isa = PBXGroup;
 			children = (
+				AEBCDFA51360CEE800EDBDB9 /* Twitter */,
 				AEBCDEB91360772200EDBDB9 /* Utils */,
-				AEBCDEA1136074E000EDBDB9 /* network */,
-				AEBCDE871360604E00EDBDB9 /* flickr */,
+				AEBCDEA1136074E000EDBDB9 /* Network */,
+				AEBCDE871360604E00EDBDB9 /* Flickr */,
 				AE29EFB01360575D00593D15 /* StyleSheet */,
 				AE29EFAF136056C000593D15 /* old */,
 				AE4F4475132B770E00A0D457 /* PortfolioAppDelegate.h */,
 				AE4F4476132B770E00A0D457 /* PortfolioAppDelegate.m */,
 				AEDF5186132D5F3D007F7290 /* TableImageTestController.m */,
 				AEDF5187132D5F3D007F7290 /* TableImageTestController.h */,
-				AE29EF651360114500593D15 /* CatalogController.h */,
-				AE29EF661360114500593D15 /* CatalogController.m */,
+				AE29EF651360114500593D15 /* FoliosController.h */,
+				AE29EF661360114500593D15 /* FoliosController.m */,
 				AE29EF671360114500593D15 /* SplitCatalogController.h */,
 				AE29EF681360114500593D15 /* SplitCatalogController.m */,
 				AE4F447B132B770E00A0D457 /* iPhone */,
@@ -528,7 +556,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AEBCDE871360604E00EDBDB9 /* flickr */ = {
+		AEBCDE871360604E00EDBDB9 /* Flickr */ = {
 			isa = PBXGroup;
 			children = (
 				AEBCDE9A136074A100EDBDB9 /* jsonFlickr */,
@@ -539,7 +567,7 @@
 				AEBCDE8C1360606400EDBDB9 /* FlickrPhotoSource.h */,
 				AEBCDE8D1360606400EDBDB9 /* FlickrPhotoSource.m */,
 			);
-			name = flickr;
+			name = Flickr;
 			sourceTree = "<group>";
 		};
 		AEBCDE9A136074A100EDBDB9 /* jsonFlickr */ = {
@@ -551,12 +579,12 @@
 			name = jsonFlickr;
 			sourceTree = "<group>";
 		};
-		AEBCDEA1136074E000EDBDB9 /* network */ = {
+		AEBCDEA1136074E000EDBDB9 /* Network */ = {
 			isa = PBXGroup;
 			children = (
 				AEBCDEA2136074E900EDBDB9 /* JSON */,
 			);
-			name = network;
+			name = Network;
 			sourceTree = "<group>";
 		};
 		AEBCDEA2136074E900EDBDB9 /* JSON */ = {
@@ -567,14 +595,6 @@
 				AEBCDEA51360750200EDBDB9 /* NSObject+SBJSON.m */,
 				AEBCDEA61360750200EDBDB9 /* NSString+SBJSON.h */,
 				AEBCDEA71360750200EDBDB9 /* NSString+SBJSON.m */,
-				AEBCDEA81360750200EDBDB9 /* SBJSON.h */,
-				AEBCDEA91360750200EDBDB9 /* SBJSON.m */,
-				AEBCDEAA1360750200EDBDB9 /* SBJsonBase.h */,
-				AEBCDEAB1360750200EDBDB9 /* SBJsonBase.m */,
-				AEBCDEAC1360750200EDBDB9 /* SBJsonParser.h */,
-				AEBCDEAD1360750200EDBDB9 /* SBJsonParser.m */,
-				AEBCDEAE1360750200EDBDB9 /* SBJsonWriter.h */,
-				AEBCDEAF1360750200EDBDB9 /* SBJsonWriter.m */,
 			);
 			name = JSON;
 			sourceTree = "<group>";
@@ -597,6 +617,47 @@
 				AEBCDEBE1360774F00EDBDB9 /* GTMNSDictionary+URLArguments.m */,
 			);
 			name = "Google Toolbox for Mac";
+			sourceTree = "<group>";
+		};
+		AEBCDFA51360CEE800EDBDB9 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				AEBCDFB01360D27200EDBDB9 /* DataSource */,
+				AEBCDFA91360CFF400EDBDB9 /* Model */,
+				AEBCDFA61360CF9C00EDBDB9 /* TTTwitterSearchFeedViewController.h */,
+				AEBCDFA71360CF9C00EDBDB9 /* TTTwitterSearchFeedViewController.m */,
+			);
+			name = Twitter;
+			sourceTree = "<group>";
+		};
+		AEBCDFA91360CFF400EDBDB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEBCDFAD1360D26D00EDBDB9 /* TTTwitterTweet.h */,
+				AEBCDFAE1360D26D00EDBDB9 /* TTTwitterTweet.m */,
+				AEBCDFAA1360D26100EDBDB9 /* TTTwitterSearchFeedModel.h */,
+				AEBCDFAB1360D26100EDBDB9 /* TTTwitterSearchFeedModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AEBCDFB01360D27200EDBDB9 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				AEBCDFB11360D28E00EDBDB9 /* TTTwitterSearchFeedDataSource.h */,
+				AEBCDFB21360D28E00EDBDB9 /* TTTwitterSearchFeedDataSource.m */,
+			);
+			name = DataSource;
+			sourceTree = "<group>";
+		};
+		AEFFF9AF1361DF8600176698 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEFFF9BA1361DF8600176698 /* libextThree20JSON+SBJSON.a */,
+				AEFFF9BC1361DF8600176698 /* libextThree20JSON+YAJL.a */,
+				AEFFF9BE1361DF8600176698 /* extJSONUnitTests+SBJSON.octest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -661,6 +722,10 @@
 			productRefGroup = AE4F4461132B770E00A0D457 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = AEFFF9AF1361DF8600176698 /* Products */;
+					ProjectRef = AEFFF9AE1361DF8600176698 /* extThree20JSON.xcodeproj */;
+				},
 				{
 					ProductGroup = 320D7DCCE32703ACAB9A45E3 /* Products */;
 					ProjectRef = 320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */;
@@ -797,6 +862,27 @@
 			remoteRef = AE20C992132B839E003EA7A6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		AEFFF9BA1361DF8600176698 /* libextThree20JSON+SBJSON.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libextThree20JSON+SBJSON.a";
+			remoteRef = AEFFF9B91361DF8600176698 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AEFFF9BC1361DF8600176698 /* libextThree20JSON+YAJL.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libextThree20JSON+YAJL.a";
+			remoteRef = AEFFF9BB1361DF8600176698 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AEFFF9BE1361DF8600176698 /* extJSONUnitTests+SBJSON.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "extJSONUnitTests+SBJSON.octest";
+			remoteRef = AEFFF9BD1361DF8600176698 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -853,20 +939,20 @@
 				AE835F09132C179300B6931D /* StyleSheet.m in Sources */,
 				AEDF5185132D5A3E007F7290 /* ImageTest1Controller.m in Sources */,
 				AEDF5188132D5F3D007F7290 /* TableImageTestController.m in Sources */,
-				AE29EF691360114500593D15 /* CatalogController.m in Sources */,
+				AE29EF691360114500593D15 /* FoliosController.m in Sources */,
 				AE29EF6A1360114500593D15 /* SplitCatalogController.m in Sources */,
 				AEBCDE8E1360606400EDBDB9 /* FlickrThumbsViewController.m in Sources */,
 				AEBCDE8F1360606400EDBDB9 /* FlickrPhoto.m in Sources */,
 				AEBCDE901360606400EDBDB9 /* FlickrPhotoSource.m in Sources */,
 				AEBCDEB01360750200EDBDB9 /* NSObject+SBJSON.m in Sources */,
 				AEBCDEB11360750200EDBDB9 /* NSString+SBJSON.m in Sources */,
-				AEBCDEB21360750200EDBDB9 /* SBJSON.m in Sources */,
-				AEBCDEB31360750200EDBDB9 /* SBJsonBase.m in Sources */,
-				AEBCDEB41360750200EDBDB9 /* SBJsonParser.m in Sources */,
-				AEBCDEB51360750200EDBDB9 /* SBJsonWriter.m in Sources */,
 				AEBCDEB81360766B00EDBDB9 /* FlickrJSONResponse.m in Sources */,
 				AEBCDEBF1360774F00EDBDB9 /* GTMNSString+URLArguments.m in Sources */,
 				AEBCDEC01360774F00EDBDB9 /* GTMNSDictionary+URLArguments.m in Sources */,
+				AEBCDFA81360CF9C00EDBDB9 /* TTTwitterSearchFeedViewController.m in Sources */,
+				AEBCDFAC1360D26100EDBDB9 /* TTTwitterSearchFeedModel.m in Sources */,
+				AEBCDFAF1360D26D00EDBDB9 /* TTTwitterTweet.m in Sources */,
+				AEBCDFB31360D28E00EDBDB9 /* TTTwitterSearchFeedDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1013,7 +1099,18 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Portfolio/Portfolio-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(BUILT_PRODUCTS_DIR)/../three20/**",
+					"$(BUILT_PRODUCTS_DIR)/../../three20/**",
+					"../three20/Build/Products/three20/**",
+					"\"$(CONFIGURATION_BUILD_DIR)/../../three20\"/**",
+				);
 				INFOPLIST_FILE = "Portfolio/Portfolio-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = Portfolio;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1026,7 +1123,18 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Portfolio/Portfolio-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(BUILT_PRODUCTS_DIR)/../three20/**",
+					"$(BUILT_PRODUCTS_DIR)/../../three20/**",
+					"../three20/Build/Products/three20/**",
+					"\"$(CONFIGURATION_BUILD_DIR)/../../three20\"/**",
+				);
 				INFOPLIST_FILE = "Portfolio/Portfolio-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = Portfolio;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
