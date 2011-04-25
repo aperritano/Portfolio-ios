@@ -9,11 +9,11 @@
 #import "PortfolioAppDelegate.h"
 #import "LauncherViewTestController.h"
 #import "StyleSheet.h"
-#import "TableImageTestController.h"
 #import "SplitCatalogController.h"
 #import "FoliosController.h"
 #import "FlickrThumbsViewController.h"
 #import "TTTwitterSearchFeedViewController.h"
+#import "RSSFeedTableViewController.h"
 
 @implementation PortfolioAppDelegate
 
@@ -34,7 +34,7 @@
     navigator.persistenceMode = TTNavigatorPersistenceModeAll;
     navigator.window = self.window;
     
-    [TTExtensionLoader loadAllExtensions]; 
+    //[TTExtensionLoader loadAllExtensions]; 
     [[TTURLRequestQueue mainQueue] setMaxContentLength:0];
     [TTStyleSheet setGlobalStyleSheet:[[[StyleSheet alloc] init] autorelease]];
     
@@ -54,6 +54,14 @@
         [map                    from: @"tt://folio"
               toSharedViewController: [FoliosController class]];
     }
+    
+  
+    
+    [map            from: @"tt://blog/(initWithTitle:)"
+                  parent: @"tt://folio"
+        toViewController: [RSSFeedTableViewController class]
+                selector: nil
+              transition: 0];
     
     [map            from: @"tt://flickPhotoAlbum"
                   parent: @"tt://folio"

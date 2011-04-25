@@ -40,6 +40,8 @@
 		AE4F449D132B770E00A0D457 /* PortfolioTests.h in Resources */ = {isa = PBXBuildFile; fileRef = AE4F449C132B770E00A0D457 /* PortfolioTests.h */; };
 		AE4F449F132B770E00A0D457 /* PortfolioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F449E132B770E00A0D457 /* PortfolioTests.m */; };
 		AE835F09132C179300B6931D /* StyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = AE835EFE132C179300B6931D /* StyleSheet.m */; };
+		AEA45ACD136559EC00F9676E /* BlogCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEA45ACC136559EC00F9676E /* BlogCustomCell.xib */; };
+		AEA45AD013655EA500F9676E /* BlogCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA45ACF13655EA500F9676E /* BlogCustomCell.m */; };
 		AEBCDE8E1360606400EDBDB9 /* FlickrThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBCDE891360606400EDBDB9 /* FlickrThumbsViewController.m */; };
 		AEBCDE8F1360606400EDBDB9 /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBCDE8B1360606400EDBDB9 /* FlickrPhoto.m */; };
 		AEBCDE901360606400EDBDB9 /* FlickrPhotoSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBCDE8D1360606400EDBDB9 /* FlickrPhotoSource.m */; };
@@ -53,8 +55,16 @@
 		AEBCDFAF1360D26D00EDBDB9 /* TTTwitterTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBCDFAE1360D26D00EDBDB9 /* TTTwitterTweet.m */; };
 		AEBCDFB31360D28E00EDBDB9 /* TTTwitterSearchFeedDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBCDFB21360D28E00EDBDB9 /* TTTwitterSearchFeedDataSource.m */; };
 		AEDF5185132D5A3E007F7290 /* ImageTest1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDF5183132D5A3E007F7290 /* ImageTest1Controller.m */; };
-		AEDF5188132D5F3D007F7290 /* TableImageTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDF5186132D5F3D007F7290 /* TableImageTestController.m */; };
 		AEFFF9C71361E40300176698 /* libextThree20JSON+SBJSON.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEFFF9C61361E40300176698 /* libextThree20JSON+SBJSON.a */; };
+		AEFFF9C913620AF400176698 /* defaultMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = AEFFF9C813620AF400176698 /* defaultMusic.png */; };
+		AEFFF9CB13620BA600176698 /* FlickrLogo100px.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEFFF9CA13620BA600176698 /* FlickrLogo100px.jpg */; };
+		AEFFF9CD13620E9400176698 /* twitter128px.png in Resources */ = {isa = PBXBuildFile; fileRef = AEFFF9CC13620E9400176698 /* twitter128px.png */; };
+		AEFFFA4B1362308200176698 /* RSSFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFFFA421362308200176698 /* RSSFeedParser.m */; };
+		AEFFFA4C1362308200176698 /* FeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFFFA441362308200176698 /* FeedItem.m */; };
+		AEFFFA4D1362308200176698 /* RSSFeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFFFA461362308200176698 /* RSSFeedTableViewController.m */; };
+		AEFFFA4E1362308200176698 /* RSSFeedDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFFFA481362308200176698 /* RSSFeedDataSource.m */; };
+		AEFFFA4F1362308200176698 /* RSSFeedDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFFFA4A1362308200176698 /* RSSFeedDataModel.m */; };
+		AEFFFA6613623A1200176698 /* BlogFeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFFFA6513623A1200176698 /* BlogFeedTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -278,6 +288,9 @@
 		AE4F449E132B770E00A0D457 /* PortfolioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortfolioTests.m; sourceTree = "<group>"; };
 		AE835EFD132C179300B6931D /* StyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleSheet.h; sourceTree = "<group>"; };
 		AE835EFE132C179300B6931D /* StyleSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleSheet.m; sourceTree = "<group>"; };
+		AEA45ACC136559EC00F9676E /* BlogCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlogCustomCell.xib; sourceTree = "<group>"; };
+		AEA45ACE13655EA500F9676E /* BlogCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlogCustomCell.h; path = Classes/BlogCustomCell.h; sourceTree = "<group>"; };
+		AEA45ACF13655EA500F9676E /* BlogCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlogCustomCell.m; path = Classes/BlogCustomCell.m; sourceTree = "<group>"; };
 		AEBCDE881360606400EDBDB9 /* FlickrThumbsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrThumbsViewController.h; sourceTree = "<group>"; };
 		AEBCDE891360606400EDBDB9 /* FlickrThumbsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrThumbsViewController.m; sourceTree = "<group>"; };
 		AEBCDE8A1360606400EDBDB9 /* FlickrPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhoto.h; sourceTree = "<group>"; };
@@ -306,10 +319,23 @@
 		AEBCDFB21360D28E00EDBDB9 /* TTTwitterSearchFeedDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTwitterSearchFeedDataSource.m; sourceTree = "<group>"; };
 		AEDF5183132D5A3E007F7290 /* ImageTest1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTest1Controller.m; sourceTree = "<group>"; };
 		AEDF5184132D5A3E007F7290 /* ImageTest1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTest1Controller.h; sourceTree = "<group>"; };
-		AEDF5186132D5F3D007F7290 /* TableImageTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableImageTestController.m; sourceTree = "<group>"; };
-		AEDF5187132D5F3D007F7290 /* TableImageTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableImageTestController.h; sourceTree = "<group>"; };
 		AEFFF9AE1361DF8600176698 /* extThree20JSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = extThree20JSON.xcodeproj; path = ../three20/src/extThree20JSON/extThree20JSON.xcodeproj; sourceTree = "<group>"; };
 		AEFFF9C61361E40300176698 /* libextThree20JSON+SBJSON.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libextThree20JSON+SBJSON.a"; sourceTree = SOURCE_ROOT; };
+		AEFFF9C813620AF400176698 /* defaultMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultMusic.png; sourceTree = "<group>"; };
+		AEFFF9CA13620BA600176698 /* FlickrLogo100px.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FlickrLogo100px.jpg; sourceTree = "<group>"; };
+		AEFFF9CC13620E9400176698 /* twitter128px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter128px.png; sourceTree = "<group>"; };
+		AEFFFA411362308200176698 /* RSSFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSFeedParser.h; sourceTree = "<group>"; };
+		AEFFFA421362308200176698 /* RSSFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSFeedParser.m; sourceTree = "<group>"; };
+		AEFFFA431362308200176698 /* FeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedItem.h; sourceTree = "<group>"; };
+		AEFFFA441362308200176698 /* FeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedItem.m; sourceTree = "<group>"; };
+		AEFFFA451362308200176698 /* RSSFeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSFeedTableViewController.h; sourceTree = "<group>"; };
+		AEFFFA461362308200176698 /* RSSFeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSFeedTableViewController.m; sourceTree = "<group>"; };
+		AEFFFA471362308200176698 /* RSSFeedDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSFeedDataSource.h; sourceTree = "<group>"; };
+		AEFFFA481362308200176698 /* RSSFeedDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSFeedDataSource.m; sourceTree = "<group>"; };
+		AEFFFA491362308200176698 /* RSSFeedDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSFeedDataModel.h; sourceTree = "<group>"; };
+		AEFFFA4A1362308200176698 /* RSSFeedDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSFeedDataModel.m; sourceTree = "<group>"; };
+		AEFFFA6413623A1200176698 /* BlogFeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogFeedTableViewController.h; sourceTree = "<group>"; };
+		AEFFFA6513623A1200176698 /* BlogFeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogFeedTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -410,12 +436,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE20C9CE132B8595003EA7A6 /* resources */ = {
+		AE20C9CE132B8595003EA7A6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AEFFF9CC13620E9400176698 /* twitter128px.png */,
+				AEFFF9C813620AF400176698 /* defaultMusic.png */,
+				AEFFF9CA13620BA600176698 /* FlickrLogo100px.jpg */,
 				AE20C9CF132B85AF003EA7A6 /* Icon.png */,
 			);
-			name = resources;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		AE29EFAF136056C000593D15 /* old */ = {
@@ -441,7 +470,6 @@
 		AE4F4455132B770D00A0D457 = {
 			isa = PBXGroup;
 			children = (
-				AEFFF9C61361E40300176698 /* libextThree20JSON+SBJSON.a */,
 				AE4F446C132B770E00A0D457 /* Portfolio */,
 				AE4F4495132B770E00A0D457 /* PortfolioTests */,
 				AE4F4463132B770E00A0D457 /* Frameworks */,
@@ -461,6 +489,7 @@
 		AE4F4463132B770E00A0D457 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AEFFF9C61361E40300176698 /* libextThree20JSON+SBJSON.a */,
 				AEFFF9AE1361DF8600176698 /* extThree20JSON.xcodeproj */,
 				3201088596B4756681693700 /* Three20UICommon.xcodeproj */,
 				320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */,
@@ -481,6 +510,8 @@
 		AE4F446C132B770E00A0D457 /* Portfolio */ = {
 			isa = PBXGroup;
 			children = (
+				AEFFFA63136239AA00176698 /* Blog */,
+				AEFFFA401362306B00176698 /* RSS */,
 				AEBCDFA51360CEE800EDBDB9 /* Twitter */,
 				AEBCDEB91360772200EDBDB9 /* Utils */,
 				AEBCDEA1136074E000EDBDB9 /* Network */,
@@ -489,15 +520,13 @@
 				AE29EFAF136056C000593D15 /* old */,
 				AE4F4475132B770E00A0D457 /* PortfolioAppDelegate.h */,
 				AE4F4476132B770E00A0D457 /* PortfolioAppDelegate.m */,
-				AEDF5186132D5F3D007F7290 /* TableImageTestController.m */,
-				AEDF5187132D5F3D007F7290 /* TableImageTestController.h */,
 				AE29EF651360114500593D15 /* FoliosController.h */,
 				AE29EF661360114500593D15 /* FoliosController.m */,
 				AE29EF671360114500593D15 /* SplitCatalogController.h */,
 				AE29EF681360114500593D15 /* SplitCatalogController.m */,
 				AE4F447B132B770E00A0D457 /* iPhone */,
 				AE4F4482132B770E00A0D457 /* iPad */,
-				AE20C9CE132B8595003EA7A6 /* resources */,
+				AE20C9CE132B8595003EA7A6 /* Resources */,
 				AE4F446D132B770E00A0D457 /* Supporting Files */,
 			);
 			path = Portfolio;
@@ -554,6 +583,16 @@
 				AE4F449B132B770E00A0D457 /* PortfolioTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEA45ACB1365595300F9676E /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				AEA45ACC136559EC00F9676E /* BlogCustomCell.xib */,
+				AEA45ACE13655EA500F9676E /* BlogCustomCell.h */,
+				AEA45ACF13655EA500F9676E /* BlogCustomCell.m */,
+			);
+			name = Table;
 			sourceTree = "<group>";
 		};
 		AEBCDE871360604E00EDBDB9 /* Flickr */ = {
@@ -658,6 +697,33 @@
 				AEFFF9BE1361DF8600176698 /* extJSONUnitTests+SBJSON.octest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AEFFFA401362306B00176698 /* RSS */ = {
+			isa = PBXGroup;
+			children = (
+				AEFFFA411362308200176698 /* RSSFeedParser.h */,
+				AEFFFA421362308200176698 /* RSSFeedParser.m */,
+				AEFFFA431362308200176698 /* FeedItem.h */,
+				AEFFFA441362308200176698 /* FeedItem.m */,
+				AEFFFA451362308200176698 /* RSSFeedTableViewController.h */,
+				AEFFFA461362308200176698 /* RSSFeedTableViewController.m */,
+				AEFFFA471362308200176698 /* RSSFeedDataSource.h */,
+				AEFFFA481362308200176698 /* RSSFeedDataSource.m */,
+				AEFFFA491362308200176698 /* RSSFeedDataModel.h */,
+				AEFFFA4A1362308200176698 /* RSSFeedDataModel.m */,
+			);
+			name = RSS;
+			sourceTree = "<group>";
+		};
+		AEFFFA63136239AA00176698 /* Blog */ = {
+			isa = PBXGroup;
+			children = (
+				AEA45ACB1365595300F9676E /* Table */,
+				AEFFFA6413623A1200176698 /* BlogFeedTableViewController.h */,
+				AEFFFA6513623A1200176698 /* BlogFeedTableViewController.m */,
+			);
+			name = Blog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -895,6 +961,10 @@
 				AE4F4481132B770E00A0D457 /* MainWindow_iPhone.xib in Resources */,
 				AE4F4488132B770E00A0D457 /* MainWindow_iPad.xib in Resources */,
 				AE20C9D0132B85AF003EA7A6 /* Icon.png in Resources */,
+				AEFFF9C913620AF400176698 /* defaultMusic.png in Resources */,
+				AEFFF9CB13620BA600176698 /* FlickrLogo100px.jpg in Resources */,
+				AEFFF9CD13620E9400176698 /* twitter128px.png in Resources */,
+				AEA45ACD136559EC00F9676E /* BlogCustomCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -938,7 +1008,6 @@
 				AE20C9D3132B8603003EA7A6 /* LauncherViewTestController.m in Sources */,
 				AE835F09132C179300B6931D /* StyleSheet.m in Sources */,
 				AEDF5185132D5A3E007F7290 /* ImageTest1Controller.m in Sources */,
-				AEDF5188132D5F3D007F7290 /* TableImageTestController.m in Sources */,
 				AE29EF691360114500593D15 /* FoliosController.m in Sources */,
 				AE29EF6A1360114500593D15 /* SplitCatalogController.m in Sources */,
 				AEBCDE8E1360606400EDBDB9 /* FlickrThumbsViewController.m in Sources */,
@@ -953,6 +1022,13 @@
 				AEBCDFAC1360D26100EDBDB9 /* TTTwitterSearchFeedModel.m in Sources */,
 				AEBCDFAF1360D26D00EDBDB9 /* TTTwitterTweet.m in Sources */,
 				AEBCDFB31360D28E00EDBDB9 /* TTTwitterSearchFeedDataSource.m in Sources */,
+				AEFFFA4B1362308200176698 /* RSSFeedParser.m in Sources */,
+				AEFFFA4C1362308200176698 /* FeedItem.m in Sources */,
+				AEFFFA4D1362308200176698 /* RSSFeedTableViewController.m in Sources */,
+				AEFFFA4E1362308200176698 /* RSSFeedDataSource.m in Sources */,
+				AEFFFA4F1362308200176698 /* RSSFeedDataModel.m in Sources */,
+				AEFFFA6613623A1200176698 /* BlogFeedTableViewController.m in Sources */,
+				AEA45AD013655EA500F9676E /* BlogCustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
